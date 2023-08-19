@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sel-pyt"
+version = "0.1.0"
+description = ""
+authors = ["fersus <deriabin_85@mail.ru>"]
+readme = "README.md"
+packages = [{include = "sel_pyt"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.11.2"
+webdriver-manager = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
